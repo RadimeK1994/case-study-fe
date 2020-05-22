@@ -18,7 +18,8 @@ import {
 	TodoCount,
 	TodoList,
 	Toggle,
-	ToggleLabel
+	ToggleLabel,
+	ThankYouComponent
 } from './components'
 import { WithApolloProvider } from './components/WithApolloProvider'
 import {
@@ -175,6 +176,9 @@ const TodosList = () => {
 						
 					</Filter>
 				</FilterWrapper>
+				<ThankYouComponent>
+				{t('main.footer.thankyou')}
+				</ThankYouComponent>
 			</Footer>
 		</Section>
 	)

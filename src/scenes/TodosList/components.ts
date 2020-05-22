@@ -199,3 +199,18 @@ export const FilterLink = styled.a`
 		border-color: rgba(175, 47, 47, 0.1);
 	}
 `
+
+export const ThankYouComponent = styled.h1`
+
+color: inherit;
+position: absolute;
+top: 200px;
+left: 80px;
+font-size: 20px;
+font-weight: 100;
+text-align: center;
+color: black;
+-webkit-text-rendering: optimizeLegibility;
+-moz-text-rendering: optimizeLegibility;
+text-rendering: optimizeLegibility;
+`
