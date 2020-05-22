@@ -131,9 +131,22 @@ const TodosList = () => {
 			</MainSection>
 			<Footer>
 				<TodoCount>
-					{t('main.footer.itemsLeft', {
-						count: getTodosByFilter(FilterEnum.ACTIVE).length
-					})}
+				{filter === FilterEnum.ACTIVE ? 
+					
+					t('main.footer.itemsLeft', {
+					count: getTodosByFilter(FilterEnum.ACTIVE).length,
+					})
+
+				 :filter === FilterEnum.ALL ?
+
+					t('main.footer.itemsLeft', {
+					count: getTodosByFilter(FilterEnum.ALL).length,
+					})
+				: 
+					t('main.footer.itemsLeft', {
+					count: getTodosByFilter(FilterEnum.COMPLETED).length,
+					})
+				} 
 				</TodoCount>
 				<FilterWrapper>
 					<Filter>
