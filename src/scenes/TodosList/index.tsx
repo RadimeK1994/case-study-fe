@@ -72,6 +72,7 @@ const TodosList = () => {
 		})
 
 	return (
+		<div>
 		<Section>
 			<header>
 				<H1>{t('main.h1')}</H1>
@@ -176,11 +177,15 @@ const TodosList = () => {
 						
 					</Filter>
 				</FilterWrapper>
-				<ThankYouComponent>
-				{t('main.footer.thankyou')}
-				</ThankYouComponent>
+				
+			
 			</Footer>
 		</Section>
+		<ThankYouComponent>
+		{t('main.thankyou')}
+		</ThankYouComponent>
+		</div>
+		
 	)
 }
 

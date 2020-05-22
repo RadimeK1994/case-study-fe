@@ -7,8 +7,9 @@
 			"itemsLeft": "{{ count }} items left",
 			"all": "All",
 			"completed": "Completed",
-			"active": "Active",
-			"thankyou": "Thank you for the amazing experience guys!"
-		}
+			"active": "Active"
+			
+		},
+		"thankyou": "Thank you for the amazing experience guys!"
 	}
 }

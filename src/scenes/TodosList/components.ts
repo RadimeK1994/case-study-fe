@@ -177,6 +177,7 @@ export const FilterWrapper = styled.ul`
 	position: absolute;
 	right: 0;
 	left: 0;
+	
 `
 
 export const Filter = styled.li`
@@ -201,13 +202,10 @@ export const FilterLink = styled.a`
 `
 
 export const ThankYouComponent = styled.h1`
-
 color: inherit;
-position: absolute;
-top: 200px;
-left: 80px;
+position: relative;
 font-size: 20px;
-font-weight: 100;
+font-weight: 20px;
 text-align: center;
 color: black;
 -webkit-text-rendering: optimizeLegibility;
